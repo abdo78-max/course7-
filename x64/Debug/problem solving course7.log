@@ -1,0 +1,8 @@
+﻿  bank2extensionprofans.cpp
+G:\course7\problem solving course7\problem solving course7\MathLib.h(120,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+G:\course7\problem solving course7\problem solving course7\Inputs.h(126,21): warning C4018: '<': signed/unsigned mismatch
+G:\course7\problem solving course7\problem solving course7\Inputs.h(136,21): warning C4018: '<': signed/unsigned mismatch
+G:\course7\problem solving course7\problem solving course7\Inputs.h(146,21): warning C4018: '<': signed/unsigned mismatch
+G:\course7\problem solving course7\problem solving course7\Inputs.h(156,21): warning C4018: '<': signed/unsigned mismatch
+G:\course7\problem solving course7\problem solving course7\bank2extensionprofans.cpp(201,70): error C2065: 'sum': undeclared identifier
+G:\course7\problem solving course7\problem solving course7\bank2extensionprofans.cpp(233,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data

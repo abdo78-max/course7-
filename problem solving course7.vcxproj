@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{eafe0738-a8fa-4c78-9540-447e9a211416}</ProjectGuid>
+    <RootNamespace>problemsolvingcourse7</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AddCilentsToFileProblem47.cpp" />
+    <ClCompile Include="bank1.cpp" />
+    <ClCompile Include="bank1profAns.cpp" />
+    <ClCompile Include="Bank2extension.cpp" />
+    <ClCompile Include="bank2extensionprofans.cpp" />
+    <ClCompile Include="checkIdentityMatrixproblem13.cpp" />
+    <ClCompile Include="checkMatrixEquelityproblem10.cpp" />
+    <ClCompile Include="checkScalerMatrixproblem14.cpp" />
+    <ClCompile Include="checkTypicalMatrixproblem12.cpp" />
+    <ClCompile Include="convertLineDataToRecordProblem46.cpp" />
+    <ClCompile Include="convertRecordToLineproblem45.cpp" />
+    <ClCompile Include="countEachWordInStringproblem36.cpp" />
+    <ClCompile Include="countLettersMatchCaseProblem31.cpp" />
+    <ClCompile Include="countLettersproblem30.cpp" />
+    <ClCompile Include="countSmallAndCapitalLetterproblem29.cpp" />
+    <ClCompile Include="countVowelproblem33.cpp" />
+    <ClCompile Include="DeleteClientByAccountNumberproblem50.cpp" />
+    <ClCompile Include="DeleteClientByAccountNumberProfAns.cpp" />
+    <ClCompile Include="fibonacchiSeriesproblem21.cpp" />
+    <ClCompile Include="fibonacchiSeriesWithRecurstionproblem22.cpp" />
+    <ClCompile Include="findClientByAccountNumberproblem49.cpp" />
+    <ClCompile Include="intersectedNumberInMatricesproblem18.cpp" />
+    <ClCompile Include="invertAllLettersCasesproblem28.cpp" />
+    <ClCompile Include="invertCharacterCaseproblem27.cpp" />
+    <ClCompile Include="isVowelprobelem32.cpp" />
+    <ClCompile Include="joinStringproblem39and40.cpp" />
+    <ClCompile Include="lowerFirstLetterOfEachWordProblem25.cpp" />
+    <ClCompile Include="maxAndMinNumbersInMatrixProblem19.cpp" />
+    <ClCompile Include="multiplyMatrixproblem8.cpp" />
+    <ClCompile Include="NumberCountInMatrixproblem15.cpp" />
+    <ClCompile Include="numberExistsInMatrixProblem17.cpp" />
+    <ClCompile Include="orderedMatrixproblem6.cpp" />
+    <ClCompile Include="palindromMatrixproblem20.cpp" />
+    <ClCompile Include="printAllVowelsInStringproblem34.cpp" />
+    <ClCompile Include="printEachWordInStringproblem35.cpp" />
+    <ClCompile Include="printFirstLetterOfEachWordInStringproblem23.cpp" />
+    <ClCompile Include="printmiddlerowandcolinmatrixproblem9.cpp" />
+    <ClCompile Include="problem solving course7.cpp" />
+    <ClCompile Include="problem2sumeachrowinmatrix.cpp" />
+    <ClCompile Include="RandomMatrix.cpp" />
+    <ClCompile Include="removePunctuationsproblem44.cpp" />
+    <ClCompile Include="replaceWordsCustomproblem43.cpp" />
+    <ClCompile Include="replaceWordsproblem42.cpp" />
+    <ClCompile Include="reverseWordsproblem41.cpp" />
+    <ClCompile Include="showAllCilentprofAnswer.cpp" />
+    <ClCompile Include="showAllCilentsproblem48.cpp" />
+    <ClCompile Include="sparseMatrixproblem16.cpp" />
+    <ClCompile Include="spiltStringproblem37.cpp" />
+    <ClCompile Include="sumeachcolinmatrixinarrayproblem5.cpp" />
+    <ClCompile Include="sumeachcolinmatrixproblem4.cpp" />
+    <ClCompile Include="sumeachrowinmatrixinarrayproblem3.cpp" />
+    <ClCompile Include="sumOfMatrixproblem11.cpp" />
+    <ClCompile Include="transposeMatrixproblem7.cpp" />
+    <ClCompile Include="trimStringProblem38.cpp" />
+    <ClCompile Include="updateCilentByAccountNumberproblem51.cpp" />
+    <ClCompile Include="updateCilentByAccountNumberproblem51part2.cpp" />
+    <ClCompile Include="upperandlowerAllLettersOfaStringproblem26.cpp" />
+    <ClCompile Include="upperFirstLetterOfEachWordproblem24.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ArrLib.h" />
+    <ClInclude Include="files.h" />
+    <ClInclude Include="generateRandom.h" />
+    <ClInclude Include="Inputs.h" />
+    <ClInclude Include="MathLib.h" />
+    <ClInclude Include="strings.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
